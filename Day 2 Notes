@@ -1,0 +1,18 @@
+# Create: ip_calculator.py
+# Learn subnetting basics
+
+def check_ip_type(ip):
+    parts = ip.split('.')
+    first = int(parts[0])
+    
+    if 1 <= first <= 126:
+        return "Class A"
+    elif 128 <= first <= 191:
+        return "Class B"
+    elif 192 <= first <= 223:
+        return "Class C"
+    else:
+        return "Special/Other"
+
+# Test
+print(check_ip_type("192.168.1.1"))  # Should print "Class C"
