@@ -1,0 +1,14 @@
+Day 4: The Art of Network Reconnaissance 🕵️‍♂️
+
+Today's Recon Operations:
+✅ NMAP mastery - 10 essential scan types
+✅ Network enumeration techniques
+✅ Live host discovery
+✅ Service fingerprinting
+✅ Multi-threaded Python port scanner built
+
+Key Insight: Reconnaissance isn't about attacking - it's about understanding. Before you defend or attack a network, you must first map it completely.
+
+Tools of the trade: NMAP, Netdiscover, Masscan, Custom Python scripts.
+
+#NetworkSecurity #NMAP #Reconnaissance #Pentesting #5MGoal
